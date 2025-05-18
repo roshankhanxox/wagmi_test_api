@@ -49,8 +49,10 @@ ALLOWED_HOSTS=127.0.0.1,localhost
 
 ## 🧪 Run the Server
 
+```
 python manage.py migrate
 python manage.py runserver
+```
 
 ## 🧾 Example Requests
 
@@ -58,6 +60,7 @@ python manage.py runserver
 
 **Request:**
 
+```
 json
 {
 "a": 40,
@@ -72,7 +75,5 @@ response
 "b": 55,
 "status": "success"
 }
-
-```
 
 ```
