@@ -35,6 +35,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
+```
+
+---
 
 ## 📁 Setup Environment
 
@@ -57,16 +60,19 @@ python manage.py runserver
 
 json
 {
-  "a": 40,
-  "b": 55
+"a": 40,
+"b": 55
 }
 
 response
 
 {
-  "result": 95,
-  "a": 40,
-  "b": 55,
-  "status": "success"
+"result": 95,
+"a": 40,
+"b": 55,
+"status": "success"
 }
+
+```
+
 ```
